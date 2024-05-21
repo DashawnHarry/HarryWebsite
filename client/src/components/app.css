@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Overglow;
+    src: url(../Fonts/OverglowFont-Demo.ttf);
+}
+
+@font-face {
+    font-family: Diesel;
+    src: url(../Fonts/DieselItalicPersonalUseBoldItalic-mLJAj.ttf);
+}
+
+@font-face {
+    font-family: Basement;
+    src: url(../Fonts/BasementGrotesque-Black_v1.202.otf);
+}
+
+
+body {
+    background-color: rgb(0, 0, 0);
+
+}
+
+.container {
+    background-color: gray;
+    height: 100vh;
+    width: 100%;
+
+}

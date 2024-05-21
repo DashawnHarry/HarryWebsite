@@ -1,0 +1,38 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.carousel{
+  height: 100%;
+  width: 100%;
+}
+
+.imagecontainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.image {
+  object-fit: contain;
+  width: 100% !important;
+}
+
+.heroname {
+  top: 10%;
+  /* position the top  edge of the element at the middle of the parent */
+  left: 50%;
+  /* position the left edge of the element at the middle of the parent */
+  transform: scale(5, 3) translate(-10%, -50%);
+  color: rgb(255, 95, 3);
+  z-index: 3;
+  position: absolute;
+  font-family: "Basement";
+  font-size: "1vw";
+  letter-spacing: "3px"
+}
+
+#herodesc {
+  font-family: "Oswald", sans-serif;
+  word-spacing: 30px;
+}
